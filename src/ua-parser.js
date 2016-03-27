@@ -265,6 +265,9 @@
             /(comodo_dragon)\/([\w\.]+)/i                                       // Comodo Dragon
             ], [[NAME, /_/g, ' '], VERSION], [
 
+            /FBAV\/([\w\.]+);/i                                                 // Facebook App
+            ], [VERSION, [NAME, 'Facebook']], [
+
             /(chrome|omniweb|arora|[tizenoka]{5}\s?browser)\/v?([\w\.]+)/i,
                                                                                 // Chrome/OmniWeb/Arora/Tizen/Nokia
             /(uc\s?browser|qqbrowser)[\/\s]?([\w\.]+)/i
@@ -282,9 +285,6 @@
 
             /android.+version\/([\w\.]+)\s+(?:mobile\s?safari|safari)/i         // Android Browser
             ], [VERSION, [NAME, 'Android Browser']], [
-
-            /FBAV\/([\w\.]+);/i                                                 // Facebook App for iOS
-            ], [VERSION, [NAME, 'Facebook']], [
 
             /version\/([\w\.]+).+?mobile\/\w+\s(safari)/i                       // Mobile Safari
             ], [VERSION, [NAME, 'Mobile Safari']], [
