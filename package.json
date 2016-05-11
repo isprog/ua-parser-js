@@ -1,6 +1,6 @@
 {
   "title": "UAParser.js",
-  "name": "ua-parser-js",
+  "name": "@streamrail/ua-parser-js",
   "version": "0.7.8",
   "author": "Faisal Salman <fyzlman@gmail.com> (http://faisalman.com)",
   "description": "Lightweight JavaScript-based user-agent string parser",
