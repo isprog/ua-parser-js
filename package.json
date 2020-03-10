@@ -63,7 +63,7 @@
   "devDependencies": {
     "jshint": "~1.1.0",
     "mocha": "~1.8.0",
-    "uglify-js": "~1.3.4",
+    "uglify-js": "~2.6.0",
     "verup": "^1.3.x"
   },
   "repository": {
